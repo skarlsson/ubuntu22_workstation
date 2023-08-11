@@ -9,7 +9,7 @@ cd ubuntu22_workstation-master
 ```
 
 ```
-ansible-playbook -i "localhost," -c local initial-ubuntu.yml --ask-become-pass 
+ansible-playbook -i "localhost," -c local initial-ubuntu.yml -u $USER --ask-become-pass 
 ```
 
 ###### if you nned cuda a reboot is nessesary to load the new driver
