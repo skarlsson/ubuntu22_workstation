@@ -5,7 +5,7 @@ sudo apt -y update
 sudo apt-get -y install ssh ansible git aptitude wget unzip
 wget https://github.com/skarlsson/ubuntu22_workstation/archive/master.zip
 unzip master.zip
-cd ubuntu22_workstation-master
+cd ubuntu22_workstation-main
 ```
 
 ```
